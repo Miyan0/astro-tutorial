@@ -1,6 +1,7 @@
 html {
+  background-color: #f0f0f0;
   /* background-color: #f1f5f9; */
-  background-color: black;
+  /* background-color: black; */
   /* background: linear-gradient(to right, black 25%, hotpink 50%, black 25%); */
   /* background: linear-gradient(
     to left,
@@ -24,7 +25,7 @@ html {
 }
 
 body {
-  background: #18181b;
+  /* background: #18181b; */
   margin: 0 auto;
   width: 100%;
   max-width: 80rem;
@@ -100,4 +101,12 @@ a:focus {
   .hamburger {
     display: none;
   }
+}
+.dark body {
+  background-color: #0d0950;
+  color: #fff;
+}
+
+.dark .nav-links a {
+  color: #fff;
 }
